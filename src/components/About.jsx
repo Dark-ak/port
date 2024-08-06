@@ -27,7 +27,7 @@ const About = () => {
     }
 
     return (
-        <Card component={motion.div} initial="offScreen" whileInView="onscreen" variants={screen}  sx={{pb:10, display: 'flex', gap:{xs:0,sm:4,md:6}, flexDirection:{xs:"column", md:"row"}, mx:{xs:2, md:20},my:20, alignItems:"center"}}>
+        <Card id="about" component={motion.div} initial="offScreen" whileInView="onscreen" variants={screen}  sx={{pb:10, display: 'flex', gap:{xs:0,sm:4,md:6}, flexDirection:{xs:"column", md:"row"}, mx:{xs:2, md:20},my:20, alignItems:"center"}}>
             <CardMedia component="img" image="../public/about.jpg" sx={{ width: 500 }} />
             <Box  sx={{ display: "flex", flexDirection: "column",mx:5 }}>
                 <Typography sx={{ fontWeight: 400, color:"#B1B493" }}>
